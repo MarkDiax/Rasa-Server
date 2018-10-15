@@ -1,0 +1,66 @@
+intents:
+ - greet
+ - harm
+ - insult
+ - goodbye
+ - mood_affirm
+ - mood_deny
+ - mood_great
+ - mood_unhappy
+ - regret
+ - unknown
+  
+actions:
+ - utter_scared
+ - utter_harm
+ - utter_greet
+ - utter_cheer_up
+ - utter_did_that_help
+ - utter_happy
+ - utter_goodbye
+ - utter_question_general
+ - utter_question_insult
+ - utter_thanks
+
+templates:
+
+ utter_harm:
+  - text: "I will end you!"
+  - text: "Move it, or i will make you!"
+  
+ utter_scared:
+ - text: "Please don't!"
+ - text: "Please! I have a wife and 8 children!"
+ - text: "Please don't hurt me!"
+
+ utter_question_general:
+  - text: "What do you mean?"
+  - text: "I don't understand.."
+  - text: "Eeh.. I don't know what you mean by that.."
+  
+ utter_question_insult:
+  - text: "Hey! Is that really necessary?"
+  - text: "How dare you?!"
+  
+ utter_greet:
+  - text: "Hey! How are you?"
+
+ utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+ utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "I hope that helped you?"
+  
+ utter_happy:
+  - text: "Great carry on!"
+  - text: "Nice!"
+  
+ utter_thanks:
+  - text: "Thank you"
+  - text: "Ah, thanks"
+
+ utter_goodbye:
+  - text: "Bye"
+  - text: "Later"

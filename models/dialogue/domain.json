@@ -1,0 +1,27 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_harm",
+    "intent_insult",
+    "intent_mood_affirm",
+    "intent_mood_deny",
+    "intent_mood_great",
+    "intent_mood_unhappy",
+    "intent_regret",
+    "intent_unknown",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_scared",
+    "prev_utter_harm",
+    "prev_utter_greet",
+    "prev_utter_cheer_up",
+    "prev_utter_did_that_help",
+    "prev_utter_happy",
+    "prev_utter_goodbye",
+    "prev_utter_question_general",
+    "prev_utter_question_insult",
+    "prev_utter_thanks"
+  ]
+}
